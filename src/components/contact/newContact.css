@@ -1,0 +1,30 @@
+.contactInput{
+    height: 300px;
+}
+.content__user{
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+}
+
+.content__user img{
+    grid-row: span 2;
+    height: 20%;
+    width: 20%;
+    border-radius: 100%;
+}
+
+#editUser{
+   
+    position: absolute;
+    right: 260px;
+    bottom: 35px;
+
+}
+
+#editProfile {
+    color: black!important;
+    /* position: absolute; */
+    /* right: 258px; */
+    /* bottom: 37px; */
+}

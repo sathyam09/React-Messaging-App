@@ -1,0 +1,32 @@
+#userForm{
+    color: black;
+    padding:20px;
+    text-align: center;
+}
+
+#userForm input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid lightgray;
+}
+
+#profileButton ,#profileDiscard{
+    border-radius: 50px;
+    margin: 10px;
+}
+#addPhoneNo{
+    border-radius: 50px;
+}
+
+#addPhoneNo i{
+    display: inline;
+    border: none;
+}
+
+#profileDiscard{
+    border-radius: 50px;
+}
+
+.formIcon{
+    padding: 10px;
+}
