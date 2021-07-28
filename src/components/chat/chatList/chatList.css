@@ -1,10 +1,11 @@
 .main__chatlist {
-  border-right: 1px solid #ebe7fb;
+  /* border-right: 1px solid #ebe7fb; */
   padding: 10px;
   background-color: #122438;
 }
 .addUser_btn i{
   color: white;
+  border: none;
 }
 .chatlist__heading {
   display: flex;
@@ -58,6 +59,17 @@
     border-radius: 5px;
     line-height: 36px;
     transition: all 0.3s cubic-bezier(0.88, 0.19, 0.37, 1.11);
+}
+
+.addUser_btn:hover {
+  background:lightgrey;
+  color: #000;
+  font-variant:small-caps;
+  background-color: lightgrey;
+}
+
+.addUser_btn:focus {
+  backgroun:lightgrey;
 }
 
   .search-btn {

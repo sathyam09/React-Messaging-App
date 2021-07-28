@@ -1,5 +1,6 @@
 .contactInput{
-    height: 300px;
+    padding: 10px;
+    /* height: 300px; */
 }
 .content__user{
     text-align: center;
@@ -19,8 +20,19 @@
     position: absolute;
     right: 260px;
     bottom: 35px;
-
 }
+.editBack:hover {
+    background:lightgrey;
+    color: #000;
+    font-variant:small-caps;
+    background-color: lightgrey;
+  }
+  
+  .editBack:focus {
+    backgroun:lightgrey;
+  }
+
+
 
 #editProfile {
     color: black!important;

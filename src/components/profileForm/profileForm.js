@@ -52,8 +52,6 @@ const ProfileForm = () => {
         const checkEmail = contacts.find((contact) => contact.email === email && contact);
         const fnameCheck = contacts.find((contact) => contact.fname ===  fname && contact);
         const phoneNoCheck = contacts.find((contact) => contact.phoneNo === parseInt(phoneNo));
-        console.log(setAddPhoneNo.length,"llllllllll");
-         console.log(setAddPhoneNo.length,"lllllccccclllll");
 
 
         if(!fname || !lname|| !email || !phoneNo){

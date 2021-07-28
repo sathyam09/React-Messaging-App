@@ -6,13 +6,14 @@ import { useHistory } from 'react-router-dom';
 const ContactListItem = (props,isActive) => {
     const history = useHistory();
 
-    const contactSelected =(e) => {
+    const contactSelected =(id) => {
+        console.log(id,"*******")
         history.push('/')
     }
 
    
     return (
-        <div className="conversationContact" key={props.key} onClick={contactSelected}>
+        <div className="conversationContact editBack" key={props.id} onClick={() => contactSelected(props.fname)}>
             <img src={props.image} alt={props.alt}/>
             {props.ureadMsg ? <span className="unreadMsg">{props.ureadMsg}</span>:'' }
             

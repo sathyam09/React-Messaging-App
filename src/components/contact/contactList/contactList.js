@@ -23,7 +23,7 @@ const ContactList =() => {
             return(
                <ContactListItem 
        fname={item.fname}
-          key={item.id}
+          id={item.id}
           lname={item.lname}
           phoneNo={item.phoneNo}
           Date={item.Date}

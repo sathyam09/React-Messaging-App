@@ -12,14 +12,15 @@ const CreateNewContact = () => {
         <div className="content__header">
          <div className="blocks">
             <div className="current-chatting-user">
-             <button className="btn-nobg">
-             <Link to="/"><i className="fa fa-arrow-left"></i></Link>
-                </button>
+            <Link to="/"> <button className="btn-nobg editBack">
+             <i className="fa fa-arrow-left"></i>
+                </button></Link>
             <p>NEW CONTACT</p>
             </div>
          </div>
          
     </div>  
+    <div className="contactInput">
     
         <div className="content__user">
         <img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt=""/>
@@ -29,8 +30,9 @@ const CreateNewContact = () => {
                 <div className="ChatDate"><h4>Profile</h4></div>
 
         </div>
-        <div className="contactInput">
+        <div>
         <ProfileForm />
+    </div>
     </div>
     </div>
     )

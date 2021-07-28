@@ -50,9 +50,9 @@ return (
          <div className="blocks">
          
              <div className="current-chatting-user">
-             <button className="btn-nobg">
-             <Link to="/contact"> <i className="fa fa-arrow-left"></i></Link>
-                </button>
+              <Link to="/contact"><button className="btn-nobg editBack">
+             <i className="fa fa-arrow-left"></i>
+                </button></Link>
                  <p>SATHYA</p>
             </div>
          </div>

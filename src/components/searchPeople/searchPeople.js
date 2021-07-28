@@ -11,10 +11,10 @@ const SearchPeople = () => {
                     </button>
                    
                     <input id="addUserInput" type="text" placeholder="Search People" required></input>
-                 <button className="addUser_btn">
-                   <Link to="/contact"><i className ="fa fa-plus"></i></Link> 
+                    <Link to="/contact"><button className="addUser_btn">
+                   <i className ="fa fa-plus"></i>
 
-                 </button>
+                 </button></Link> 
                 </div>
             </div>
     )
