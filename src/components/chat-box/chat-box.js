@@ -1,13 +1,12 @@
-import './chat-box.css';
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import './Chat-box.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import ChatList from '../chat/chatList/chatList';
-import ContactList from '../contact/contactList/contactList';
-import Message from '../message/message';
-import ChatContent from '../chat/chatContent/chatContent';
-import CreateNewContact from '../contact/newContact';
-import { ToastContainer, toast } from 'react-toastify';
+import ChatList from '../Chat/ChatList/ChatList';
+import ContactList from '../Contact/ContactList/ContactList';
+import Message from '../Message/Message';
+import CreateNewContact from '../Contact/NewContact';
+import { ToastContainer } from 'react-toastify';
 
 
 const ChatBox = () => {

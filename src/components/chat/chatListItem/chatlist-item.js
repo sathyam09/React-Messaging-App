@@ -1,5 +1,5 @@
 import React from 'react';
-import './chatlist-item.css'
+import './Chatlist-item.css'
 
 const ChatListItem = (props,isActive) => {
     const chatSelected =(e) => {

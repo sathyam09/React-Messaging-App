@@ -1,6 +1,6 @@
 
 import './App.css';
-import ChatBox from './components/chat-box/chat-box';
+import ChatBox from './components/Chat-box/Chat-box';
 
 
 function App() {

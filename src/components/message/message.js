@@ -1,9 +1,9 @@
 import React, { createRef, useState } from 'react';
 import {Link} from 'react-router-dom';
 
-import './message.css';
+import './Message.css';
 import { toast } from 'react-toastify';
-import ChatContent from '../chat/chatContent/chatContent'; 
+import ChatContent from '../Chat/ChatContent/ChatContent'; 
 import { useDispatch, useSelector } from 'react-redux';
 // import MessageReducer from '../../redux/reducers/messageReducer';
 const MessageBody = () => {

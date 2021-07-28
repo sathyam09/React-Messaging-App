@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
 // import contactReducer from '../../redux/reducers/contactReducer';
 
-import './profileForm.css';
+import './ProfileForm.css';
 
 const ProfileForm = () => {
     const [fname, setFname] = useState('');

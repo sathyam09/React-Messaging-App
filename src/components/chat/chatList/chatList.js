@@ -1,7 +1,7 @@
 import React from 'react';
-import './chatList.css';
-import ChatListItem from '../chatListItem/chatlist-item';
-import SerachPeople from '../../searchPeople/searchPeople';
+import './ChatList.css';
+import ChatListItem from '../ChatListItem/Chatlist-item';
+import SerachPeople from '../../SearchPeople/SearchPeople';
 import { useSelector } from 'react-redux';
 
 

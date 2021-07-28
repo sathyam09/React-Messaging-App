@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import '../chat/chatList/chatList.css';
+import '../Chat/ChatList/ChatList.css';
 
 const SearchPeople = () => {
     return(

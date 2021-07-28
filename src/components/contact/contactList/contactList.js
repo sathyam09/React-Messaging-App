@@ -1,7 +1,7 @@
 import React from 'react';
-import './contactList.css';
-import ContactListItem from '../contactListItem/conatctListItem';
-import SerachPeople from '../../searchPeople/searchPeople';
+import './ContactList.css';
+import ContactListItem from '../ContactListItem/ConatctListItem';
+import SerachPeople from '../../SearchPeople/SearchPeople';
 import { useSelector } from 'react-redux';
 
 

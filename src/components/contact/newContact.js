@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import ProfileForm from '../profileForm/profileForm';
-import './newContact.css';
+import ProfileForm from '../ProfileForm/ProfileForm';
+import './NewContact.css';
 // import '../message/message.css';
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import './chatContent.css';
+import './ChatContent.css';
 
-const ChatContent =(props,index) => {
+const ChatContent =(props) => {
     return(
 <div key={props.id} className="chat__item__content" >
     <div className="chat__msg">{props.msg}</div>
